@@ -58,6 +58,7 @@ public class MvcTest {
             System.out.println("总记录数："+pi.getTotal());
             System.out.println("在页面需要连续显示的页码");
             System.out.println("master添加23333");
+            System.out.println("push test");
             int[] nums = pi.getNavigatepageNums();
             for (int i : nums) {
                 System.out.print(" "+i);
